@@ -50,6 +50,9 @@
 .tab.active {
   background: #18cfab;
 }
+.tab.active span {
+  color: #ffffff;
+}
 .hidden {
   display: none;
 }

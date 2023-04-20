@@ -12,6 +12,10 @@ function showContent(id) {
   hideAllContent();
   content.classList.remove("hidden");
   content.classList.add("d-flex");
+
+  removeAllActive();
+  event.target.classList.add("active");
+  // this.classlist.add("active");
 }
 function hideAllContent() {
   const contents = document.getElementsByClassName("content");
@@ -21,12 +25,11 @@ function hideAllContent() {
     content.classList.add("hidden");
   }
 }
-function removeAllActive(event) {}
+
 function removeAllActive() {
   const tabs = document.getElementsByClassName("tab");
-  for (let i = 0; i < contents.length; i++) {
+  for (let i = 0; i < tabs.length; i++) {
     let tab = tabs[i];
-
     tab.classList.remove("active");
   }
 }
