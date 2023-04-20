@@ -24,6 +24,7 @@
   transform: translateX(2px);
 }
 .tab {
+  border: 1px solid #edefef;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
