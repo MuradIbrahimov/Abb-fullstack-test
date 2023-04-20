@@ -41,6 +41,9 @@
 
   border-radius: 0px;
 }
+.tab:hover {
+  border: 1.5px solid #18cfab;
+}
 .tab span {
   color: #717171;
 }

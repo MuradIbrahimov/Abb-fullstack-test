@@ -21,3 +21,12 @@ function hideAllContent() {
     content.classList.add("hidden");
   }
 }
+function removeAllActive(event) {}
+function removeAllActive() {
+  const tabs = document.getElementsByClassName("tab");
+  for (let i = 0; i < contents.length; i++) {
+    let tab = tabs[i];
+
+    tab.classList.remove("active");
+  }
+}
